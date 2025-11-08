@@ -3,9 +3,6 @@
 A modern, responsive **React Native Calculator App** built using functional components and hooks.  
 It supports both **basic and advanced operations**, provides **local history storage**, and delivers a **native experience** with sound effects and haptic feedback.
 
-![Calculator App Screenshot](https://github.com/usmanthesuper/react-native-calculator/blob/master/image.PNG?raw=true)
-
-
 ---
 
 ## 🚀 Features
