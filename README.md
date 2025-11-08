@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# 📱 React Native Calculator App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, responsive **React Native Calculator App** built using functional components and hooks.  
+It supports both **basic and advanced operations**, provides **local history storage**, and delivers a **native experience** with sound effects and haptic feedback.
 
-## Get started
+![Calculator App Screenshot](https://i.ibb.co/C36FmfTz/IMG-1422.png)
 
-1. Install dependencies
+---
 
+## 🚀 Features
+
+- 🎨 **Modern Light UI** — Clean, minimalistic light theme design.
+- ➕ **Basic Operations** — Add, subtract, multiply, and divide.
+- 🧮 **Advanced Functions** — Square root, power, and percentage.
+- 💾 **History Storage** — Saves the last 5 calculations using `AsyncStorage`.
+- 🤝 **Haptic Feedback** — Provides tactile vibration like typing on a phone keyboard.
+- ⚡ **Fast Performance** — Built with React Hooks and optimized layout for smooth rendering.
+
+---
+
+## 🧠 Tech Stack
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/) (recommended for testing)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
+- [expo-haptics](https://docs.expo.dev/versions/latest/sdk/haptics/)
+
+---
+
+## 📸 Screenshot
+
+| Light Theme UI |
+|----------------|
+| ![App Screenshot](https://i.ibb.co/C36FmfTz/IMG-1422.png) |
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/usmanthesuper/react-native-calculator.git
+   cd react-native-calculator
